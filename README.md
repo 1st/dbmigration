@@ -3,6 +3,8 @@ DB migration toolkit with YAML syntax
 
 **Under development.** You can help me speedup this process.
 
+It's written on Python.
+
 ```yaml
 # migrations/migraton_2013-04-30.yaml
 migrations:
