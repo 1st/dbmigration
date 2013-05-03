@@ -28,11 +28,11 @@ migrations:
    - delete_column: date_create
    # or builk operations
    - create_columns:
-     is_approved: {type: BOOLEAN, default: FALSE}
-     is_hidden: {type: BOOLEAN, default: FALSE}
+     - is_approved: {type: BOOLEAN, default: FALSE}
+     - is_hidden: {type: BOOLEAN, default: FALSE}
    - rename_columns:
-     id: comment_id
-     name: title
+     - id: comment_id
+     - name: title
    - delete_columns:
      - notes
      - date_create
